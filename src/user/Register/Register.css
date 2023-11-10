@@ -1,0 +1,12 @@
+.reg .text-input {
+    border-radius:  5px;
+    height: 100%;
+    width: 100%;
+} 
+.label {
+    width: 80%;
+}
+.redInput {
+    border: 1px solid red; /* Thêm kiểu border solid để màu đỏ hiển thị */
+  }
+  

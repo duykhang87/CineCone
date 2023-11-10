@@ -1,0 +1,32 @@
+.poster-list {
+    padding: 2%
+}
+.rank {
+    position: absolute;
+    color: red;
+    font-size: 128px;
+    top: 48%;
+    background-color: rgb(149, 149, 183);
+    size: 18px;
+    width: 12%;
+    opacity: 0.5;
+}
+.movie-poster:hover {
+    opacity: 0.5;
+}
+.movie-poster:hover  .movie-title {
+    position: absolute;
+    color: red;
+    font-size: 128px;
+    top: 5%;
+    background-color: rgb(149, 149, 183);
+    size: 2%;
+    width: 12%;
+    opacity: 0.7;
+    display: block;
+    text-size-adjust: 1px;
+}
+.movie-title {
+    display: none;
+}
+ 

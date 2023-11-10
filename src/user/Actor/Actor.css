@@ -1,0 +1,10 @@
+.actor div {
+    border: 1px solid #000;
+}
+.actor div {
+    padding: 20%;
+}
+.avata-img {
+    width: 180px;
+    border-radius: 10px;
+}

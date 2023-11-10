@@ -1,0 +1,86 @@
+.movie-page {
+    padding:  2% 2%!important;
+    border: 1px solid #fff;
+    
+    color: aliceblue;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    font-weight: bold;
+}
+.info {
+    background-color: rgb(194, 178, 178);
+}
+.movie-poster {
+    width: fit-content;
+    
+}
+.movie-poster img {
+    border: #fff 2px solid;
+}
+.cc button {
+    display: block;
+    width: fit-content!important;
+    background-color: red;
+    border: none;
+}
+.mumber-rank {
+    margin-top: 5%;
+}
+.redbox {
+    padding: 2%;
+    margin-right: 5%;
+    width: fit-content;
+}
+.redText {
+    
+    color: red;
+    font-weight: normal;
+
+}
+.summary {
+    font-weight: normal;
+}
+.text-muted {
+    font-weight: normal;
+
+}
+.body {
+    background-color: #fff;
+    margin-top: 2%;
+    padding-top: 5%;
+    padding-left: 1%;
+}
+.tong-diem {
+    color: black;
+}
+.form-post {
+    padding: 5%;
+    border: #dfdddd solid;
+    border-radius: 15px;
+    position: absolute;
+    top:  50%;
+    background-color: #ffff;
+    width: 60%!important;
+    height: fit-content;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: rgb(52, 50, 50);
+
+}
+.active {
+    color: yellow;
+}
+.cancer-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.post-input {
+    border-radius: 15px;
+    height: 150px;
+    width: 95%;
+    padding: 2%;
+}
+.body {
+    color: #0000;
+}

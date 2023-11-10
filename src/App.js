@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+import UserInterface from './user/UserInterface';
+import AdminInterface from './admin/AdminInterface';
+import { BrowserRouter , Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <div className='app'>
+      <Routes>
+        <Route path="/*" element={<UserInterface />} />
+        <Route path="/admin/*" element={<AdminInterface />} />
+      </Routes>
+      </div>
+      <ToastContainer />
+      </BrowserRouter>
   );
 }
 

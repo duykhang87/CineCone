@@ -1,0 +1,38 @@
+.amovie {
+    background-color: #10141B;
+}
+.amovie col {
+    border: #ffff;
+}
+.add-movie-btn {
+    height: 100%;
+    width: 40%;
+}
+.add-movie {
+ 
+    border: #dfdddd solid;
+    border-radius: 15px;
+    position: absolute;
+    top:  10%;
+    background-color: #ffff;
+    width: 60%!important;
+    height: 85%;
+    margin-right: 10%;
+    margin-left: 10%;
+    overflow: auto;
+    color:#10141B;
+   
+}
+.add {
+    border: #dfdddd solid;
+    border-radius: 15px;
+    position: absolute;
+    top:  35%;
+    background-color: #ffff;
+    width: 45%!important;
+    height: fit-content!important;
+    margin-right: 10%;
+    margin-left: 10%;
+    overflow: auto;
+    color:#10141B; 
+}

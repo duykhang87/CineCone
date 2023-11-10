@@ -1,0 +1,71 @@
+.profile {
+    padding: 0 5%;
+    background-color: rgb(194, 178, 178);
+    margin: 0 10%;
+}
+.avata-img {
+    width: 30vh;
+   height: 30vh;
+   border-radius: 50%;
+  
+}
+/* .avata {
+    position: relative !important;
+    top: -50%;
+} */
+.anhbia {
+    width: 80%;
+
+     
+}
+.edit {
+    position: absolute;
+    top: 15%;
+    background-color: #ffff;
+    border: #e2e0e0 2px solid;
+    left: 20%;
+    width: 60%;
+    border-radius: 15px;
+}
+.edit .btn-danger{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img-input {
+    display: none; /* Hide the default input element */
+  }
+  
+  .file-label {
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 150px; /* Adjust the width to make it crescent moon shape */
+    height: 150px; /* Adjust the height to make it crescent moon shape */
+    text-align: center;
+    line-height: 150px; /* Center the "+" symbol vertically */
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .file-label span {
+    font-size: 36px; /* Adjust the font size of the "+" symbol */
+    line-height: 1; /* Remove any extra space around the "+" symbol */
+  }
+  
+  /* Style the label when the input is hovered or focused */
+  .img-input:hover + .file-label,
+  .img-input:focus + .file-label {
+    background-color: #aaa;
+  }
+  
+  /* Style the label when the input is hovered or focused */
+  .img-input:hover + .file-label {
+    background-color: #aaa;
+  }
+  .edit-title {
+    border-bottom: 2px solid #f1f1f1;
+  }
+  .edit-bio {
+    border: none;
+  }
